@@ -1,6 +1,6 @@
-tip = 20.0 #tip percent
-cost = 45.0 #cost price
-tax = 1.5 #tax percent.
+tip = input("%: ") #tip percent
+cost = input("%: ") #cost price
+tax = input("tax%: ") #tax percent.
 
 
 cost += (float(tip)/100)*cost
