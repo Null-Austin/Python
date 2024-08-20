@@ -7,3 +7,5 @@ hostname = socket.gethostname()
 IPAddr = socket.gethostbyname(hostname)
 
 print(IPAddr)
+
+#i believe this is just local ip... or 127.0.0.1
